@@ -1,5 +1,12 @@
 # @backstage/plugin-techdocs
 
+## 0.9.10
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-react@0.3.0
+
 ## 0.9.9
 
 ### Patch Changes
