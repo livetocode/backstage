@@ -47,7 +47,6 @@
 <tr><th>Function</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/docs/reference/core-app-api.createapp">createApp(options)</a></td><td>Creates a new Backstage App.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.createfetchapi">createFetchApi(options)</a></td><td>Builds a fetch API, based on the builtin fetch wrapped by a set of optional middleware implementations that add behaviors.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.createspecializedapp">createSpecializedApp(options)</a></td><td>Creates a new Backstage App where the full set of options are required.</td></tr>
 </tbody>
@@ -86,11 +85,10 @@
 <tr><td><a href="/docs/reference/core-app-api.appconfigloader">AppConfigLoader</a></td><td>A function that loads in the App config that will be accessible via the ConfigApi.<!-- -->If multiple config objects are returned in the array, values in the earlier configs will override later ones.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appcontext">AppContext</a></td><td>The central context providing runtime app specific state that plugin views want to consume.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appicons">AppIcons</a></td><td>A set of well-known icons that should be available within an app.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.appoptions">AppOptions</a></td><td>The options accepted by <a href="/docs/reference/core-app-api.createapp">createApp()</a><!-- -->.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.approutebinder">AppRouteBinder</a></td><td>A function that can bind from external routes of a given plugin, to concrete routes of other plugins. See <a href="/docs/reference/core-app-api.createapp">createApp()</a><!-- -->.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.appoptions">AppOptions</a></td><td>The options accepted by <a href="/docs/reference/core-app-api.createspecializedapp">createSpecializedApp()</a><!-- -->.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.approutebinder">AppRouteBinder</a></td><td>A function that can bind from external routes of a given plugin, to concrete routes of other plugins. See <a href="/docs/reference/core-app-api.createspecializedapp">createSpecializedApp()</a><!-- -->.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.authapicreateoptions">AuthApiCreateOptions</a></td><td>Generic create options for auth APIs.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.backstageapp">BackstageApp</a></td><td>The public API of the output of <a href="/docs/reference/core-app-api.createapp">createApp()</a><!-- -->.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.backstagepluginwithanyoutput">BackstagePluginWithAnyOutput</a></td><td>Internal helper type that represents a plugin with any type of output.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.backstageapp">BackstageApp</a></td><td>The public API of the output of <a href="/docs/reference/core-app-api.createspecializedapp">createSpecializedApp()</a><!-- -->.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.bitbucketsession">BitbucketSession</a></td><td>Session information for Bitbucket auth.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.booterrorpageprops">BootErrorPageProps</a></td><td>Props for the <code>BootErrorPage</code> component of <a href="/docs/reference/core-app-api.appcomponents">AppComponents</a><!-- -->.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.errorboundaryfallbackprops">ErrorBoundaryFallbackProps</a></td><td>Props for the fallback error boundary.</td></tr>
