@@ -11,6 +11,8 @@
 <p><b>Signature:</b></p>
 <pre><code class="hljs css language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">declare</span> <span class="hljs-keyword">type</span> AwsS3IntegrationConfig = {
     host: <span class="hljs-built_in">string</span>;
+    endpoint?: <span class="hljs-built_in">string</span>;
+    s3ForcePathStyle?: <span class="hljs-built_in">boolean</span>;
     accessKeyId?: <span class="hljs-built_in">string</span>;
     secretAccessKey?: <span class="hljs-built_in">string</span>;
     roleArn?: <span class="hljs-built_in">string</span>;
